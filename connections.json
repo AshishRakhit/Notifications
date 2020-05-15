@@ -1,0 +1,55 @@
+[
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Production" , "Country": "US", "DBServerName": "HOPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Production" , "Country": "US", "DBServerName": "HOPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Production" , "Country": "US", "DBServerName": "sqlhydy01-lstnr", "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         , "HighAvailability": true},
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Production" , "Country": "US", "DBServerName": "sqlhydy01-lstnr", "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    , "HighAvailability": true},
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Production" , "Country": "US", "DBServerName": "sqlhydy01-lstnr", "DBName": "OXYLIFT"        , "SQLType": "MSSQL" , "Password": "oxyread"         , "HighAvailability": true},
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Production" , "Country": "CO", "DBServerName": "BGPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Production" , "Country": "CO", "DBServerName": "BGPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Production" , "Country": "CO", "DBServerName": "NBGWSQL8"       , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Production" , "Country": "CO", "DBServerName": "NBGWSQL8"       , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Production" , "Country": "CO", "DBServerName": "NBGWSQL8"       , "DBName": "OXYLIFT"        , "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Production" , "Country": "OM", "DBServerName": "MOPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Production" , "Country": "OM", "DBServerName": "MOPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Production" , "Country": "OM", "DBServerName": "NMOWSQL8"       , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Production" , "Country": "OM", "DBServerName": "NMOWSQL8"       , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Production" , "Country": "OM", "DBServerName": "NMOWSQL8"       , "DBName": "OXYLIFT"        , "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Production" , "Country": "QA", "DBServerName": "DQPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Production" , "Country": "QA", "DBServerName": "DQPSPP.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Production" , "Country": "QA", "DBServerName": "NDQWSQL8"       , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Production" , "Country": "QA", "DBServerName": "NDQWSQL8"       , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Production" , "Country": "QA", "DBServerName": "NDQWSQL8"       , "DBName": "OXYLIFT"        , "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Test"       , "Country": "US", "DBServerName": "HOPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Test"       , "Country": "US", "DBServerName": "HOPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Test"       , "Country": "US", "DBServerName": "OHYWSQLU-S"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Test"       , "Country": "US", "DBServerName": "OHYWSQLU-S"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "C!pherLog!n@2018"},
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Test"       , "Country": "US", "DBServerName": "OHYWSQLU-S"     , "DBName": "OXYLIFT_STAGING", "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Test"       , "Country": "CO", "DBServerName": "BGPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Test"       , "Country": "CO", "DBServerName": "BGPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Test"       , "Country": "CO", "DBServerName": "NBGWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Test"       , "Country": "CO", "DBServerName": "NBGWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Test"       , "Country": "CO", "DBServerName": "NBGWSQL8-D"     , "DBName": "OXYLIFT_STAGING", "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Test"       , "Country": "OM", "DBServerName": "MOPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Test"       , "Country": "OM", "DBServerName": "MOPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Test"       , "Country": "OM", "DBServerName": "NMOWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Test"       , "Country": "OM", "DBServerName": "NMOWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Test"       , "Country": "OM", "DBServerName": "NMOWSQL8-D"     , "DBName": "OXYLIFT_STAGING", "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Test"       , "Country": "QA", "DBServerName": "DQPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Test"       , "Country": "QA", "DBServerName": "DQPSPT.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Test"       , "Country": "QA", "DBServerName": "NDQWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Test"       , "Country": "QA", "DBServerName": "NDQWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherLogin1"    },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Test"       , "Country": "QA", "DBServerName": "NDQWSQL8-D"     , "DBName": "OXYLIFT_STAGING", "SQLType": "MSSQL" , "Password": "oxyread"         },
+
+    {"DBSource": "Oracle"  , "UserName": "oxy_read"     , "Environment": "Development", "Country": "US", "DBServerName": "HOPSPD.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "oxy_read"        },
+    {"DBSource": "Oracle"  , "UserName": "nexus"        , "Environment": "Development", "Country": "US", "DBServerName": "HOPSPD.WORLD"   , "DBName": ""               , "SQLType": "Oracle", "Password": "CipherLogin1"    },
+    {"DBSource": "NexusODS", "UserName": "oxyread"      , "Environment": "Development", "Country": "US", "DBServerName": "OHYWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "oxyread"         },
+    {"DBSource": "NexusODS", "UserName": "CipherAdmin"  , "Environment": "Development", "Country": "US", "DBServerName": "OHYWSQL8-D"     , "DBName": "NexusODS"       , "SQLType": "MSSQL" , "Password": "CipherAdmin"     },
+    {"DBSource": "OXYLIFT" , "UserName": "oxyread"      , "Environment": "Development", "Country": "US", "DBServerName": "OHYWSQL8-D"     , "DBName": "OXYLIFT"        , "SQLType": "MSSQL" , "Password": "oxyread"         }
+]

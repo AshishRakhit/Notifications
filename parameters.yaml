@@ -1,0 +1,22 @@
+Logging:
+  Console:
+    Enabled: false
+    Level: info
+  File:
+    Enabled: true
+    Level: info
+    Path: .\Logs
+Notification:
+  AzureMessageBus:
+    ServiceNamespace: asb-nam-dbx-oxy 
+    SharedAccessKeyName: RootManageSharedAccessKey
+    SharedAccessKeyValue: u83MjSq9jw91sXoNt82HS4dAGRekS7ynnnMtxfXCvQ8= 
+    QueueName: nam-oxy-notification-email
+  MessageBody:
+    EmailType: 0
+    FromAddress: doNotReply@oxy.com
+    FromName: Process Alert(s)
+    ToAddresses:
+WebServer:
+  Site:
+  Port: 8000

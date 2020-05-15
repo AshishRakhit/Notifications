@@ -1,0 +1,11 @@
+ 
+Traceback (most recent call last):
+  File "notify.py", line 49, in <module>
+    main()    
+  File "notify.py", line 11, in main
+    Emails, PList, df = ExecutionSchedule.GetLastHourProcessData()
+  File "C:\DevOps\Oxy.Cipher.ProcessInsights\processinsights\ExecutionSchedule.py", line 230, in GetLastHourProcessData
+    dbconn = CipherData.byConfig('NexusODS', 'oxyread')
+  File "C:\Users\rakhias\.conda\envs\ProcessInsights\lib\site-packages\ciphercommon\data.py", line 319, in byConfig
+    return CipherData.get(server["SQLType"], serverName=server["DBServerName"], databaseName=server.get("DBName", None), userName=server["UserName"], userPassword=server["Password"], highAvailability=highAvailability, driver=driver)
+KeyError: 'DBServerName'

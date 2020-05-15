@@ -1,0 +1,6 @@
+Notification:
+  AzureMessageBus:
+    ServiceNamespace: asb-nam-dev-oxy 
+    SharedAccessKeyValue: 8XgejoqixV4heL4uk9NK7bu8PVNYa6tTebB1CN4b+I8=
+WebServer:
+  Site: ohywnxu3-d

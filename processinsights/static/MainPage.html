@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var dateControl = document.querySelector('input[type="date"]');
+        
+        function pad(d) {
+            return (d < 10) ? '0' + d.toString() : d.toString();
+        }
+        var dtToday = new Date();
+        var month = dtToday.getMonth() + 1;
+        month = pad(month);
+        var day = dtToday.getDate();
+        day = pad(day);
+        var year = dtToday.getFullYear();
+        dateControl.value = year + '-' + month + '-' + day;
+        dateControl.max = dateControl.value;
+
+        var priordate = new Date();
+        priordate.setDate(priordate.getDate() - 90);
+        var month = priordate.getMonth() + 1;
+        month = pad(month);
+        var day = priordate.getDate();
+        day = pad(day);
+        var year = priordate.getFullYear();               
+        dateControl.min = year + '-' + month + '-' + day;
+
+        document.getElementById("Summary").onclick = BtnClickSummary;
+        document.getElementById("Schedule").onclick = BtnClickSchedule;
+        //document.getElementById("Execute").onclick = BtnClickExecute;
+
+        //document.getElementById("Summary").disabled = true;
+        //document.getElementById("Schedule").disabled = true;
+
+    });
+   
+    function BtnClickSummary() {
+        var x = document.getElementById("datepicker").value;
+        window.location.href = "http://" + location.host + "/Summary/" + x;
+        }
+
+    function BtnClickSchedule() {
+        var x = document.getElementById("datepicker").value;
+        window.location.href = "http://" + location.host + "/Schedule/" + x;
+    }
+    /*
+    function BtnClickExecute() {
+        var x = document.getElementById("datepicker").value;
+        var xhttp = new XMLHttpRequest();
+        document.getElementById("Execute").disabled = true;
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var tmp = this.responseText;
+                alert("Execution Completed!");
+                document.getElementById("Summary").disabled = false;
+                document.getElementById("Schedule").disabled = false;
+                document.getElementById("Execute").disabled = false;
+
+            }
+        }
+        var x = document.getElementById("datepicker").value;
+        url = "http://" + location.host + "/Execute/" + x;
+        
+        xhttp.open("GET", url, true);
+        xhttp.send();
+        
+        //window.location.href = "http://" + location.host + "/Schedule/" + x;
+    }
+    */
+        
+</script>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div.relative {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+</head>
+<body style="background-color: lightblue; ">
+    <div align="center" class="relative">
+        <h2>Process Run Data</h2>
+        <h3>Select Date</h3>
+        <input id="datepicker" type="date" />
+        <!--button id="Execute" type="button">Execute</!--button-->
+        <br /><br />
+        <button id="Summary" type="button">Count</button>
+        <button id="Schedule" type="button">Run Time(s)</button>
+    </div>
+</body>
+
+</html>

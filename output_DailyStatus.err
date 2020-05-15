@@ -1,0 +1,19 @@
+ 
+C:\Users\rakhias\.conda\envs\ProcessInsights\lib\site-packages\plotly\offline\offline.py:562: UserWarning:
+
+Your filename `./static/ExecutionSummary` didn't end with .html. Adding .html to the end of your file.
+
+C:\Users\rakhias\.conda\envs\ProcessInsights\lib\site-packages\plotly\figure_factory\_gantt.py:33: FutureWarning:
+
+
+.ix is deprecated. Please use
+.loc for label based indexing or
+.iloc for positional indexing
+
+See the documentation here:
+http://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#ix-indexer-is-deprecated
+
+C:\Users\rakhias\.conda\envs\ProcessInsights\lib\site-packages\plotly\offline\offline.py:562: UserWarning:
+
+Your filename `./static/ExecutionSchedule` didn't end with .html. Adding .html to the end of your file.
+

@@ -1,0 +1,44 @@
+ApplicationName,Avg_Exec_Time,Max_Exec_Time,Planned_Exec_Time,Actual_Exec_Count,Planned_Exec_Count,Actual Count < Planned Count
+Cipher.DynaCardCollector,42.3,222.82,1440.0,1,1.0,False
+CompressorBase_DailySummary,0.65,4.5,1440.0,1,1.0,False
+DynaCardAnalysis,30.05,390.55,60.0,1,24.0,True
+ESP_CurrentValue,7.31,39.55,60.0,24,24.0,False
+ESP_DailySummary,46.93,199.23,1440.0,1,1.0,False
+ESP_Exception,3.37,10.8,60.0,24,24.0,False
+ESP_HourlySummary,9.01,53.18,60.0,24,24.0,False
+ETL BACKFILL,3.27,15.83,0.0,0,0.0,False
+ETL DAILY SUMMARY ESP US PROD,0.81,1.63,720.0,2,2.0,False
+ETL DAILY SUMMARY FLOWING US PROD,0.89,1.87,720.0,2,2.0,False
+ETL DAILY SUMMARY GASCOMP US PROD,3.19,12.57,720.0,2,2.0,False
+ETL DAILY SUMMARY GASLIFT US PROD,1.04,2.05,720.0,2,2.0,False
+ETL DAILY SUMMARY INJECTION US PROD,1.64,3.27,720.0,2,2.0,False
+ETL DAILY SUMMARY RODPUMP US PROD,3.23,12.37,720.0,2,2.0,False
+ETL EQUIPMENT ESP US PROD,2.22,4.37,720.0,2,2.0,False
+ETL INSTALLSENSOR US PROD,2.27,4.43,720.0,2,2.0,False
+ETL PRI ESP US PROD,2.34,4.5,720.0,2,2.0,False
+ETL PRI FLOWING US PROD,2.4,4.58,720.0,2,2.0,False
+ETL PRI GASLIFT US PROD,2.46,4.65,720.0,2,2.0,False
+ETL PRI INJECTION US PROD,2.56,4.77,720.0,2,2.0,False
+ETL PRI RODPUMP US PROD,2.7,4.92,720.0,2,2.0,False
+ETL PRI WELL US PROD,2.88,5.12,720.0,2,2.0,False
+ETL RODPUMP CYCLE HISTORY US PROD,5.78,12.05,720.0,2,2.0,False
+ETL WELLBORE US PROD,5.8,12.07,720.0,2,2.0,False
+ETL WELLPERFORMANCETARGET US PROD,5.86,12.12,720.0,2,2.0,False
+ETL WTV_FIRST_FLUID_DATE US PROD,1.37,9.83,720.0,2,2.0,False
+ETL WTV_SOURCE US PROD,5.97,12.13,720.0,2,2.0,False
+Flowing_CurrentValue,4.25,31.9,60.0,24,24.0,False
+Flowing_DailySummary,1.7,8.75,1440.0,1,1.0,False
+Flowing_Exception,2.05,9.4,60.0,24,24.0,False
+Flowing_HourlySummary,1.93,30.58,60.0,24,24.0,False
+Gaslift_CurrentValue,0.83,45.4,60.0,24,24.0,False
+GasLift_DailySummary,3.02,9.95,1440.0,1,1.0,False
+Gaslift_Exception,1.37,4.9,60.0,24,24.0,False
+Gaslift_HourlySummary,0.85,19.42,60.0,24,24.0,False
+Injection_DailySummary,86.04,190.75,1440.0,1,1.0,False
+PIAttributeMapExport,48.99,148.9,120.0,1,12.0,True
+RodPump_CurrentValue,43.1,95.47,60.0,1,24.0,True
+Rodpump_DailySummary,148.69,246.08,1440.0,1,1.0,False
+RodPump_Exception,32.44,52.32,1440.0,1,1.0,False
+RodPump_HourlySummary,51.01,212.78,60.0,23,24.0,True
+RodpumpCycleHistory,23.22,50.48,1440.0,1,1.0,False
+WellTestValidation,2.47,7.82,60.0,24,24.0,False

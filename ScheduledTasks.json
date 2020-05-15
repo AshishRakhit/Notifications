@@ -1,0 +1,136 @@
+[
+    {"ApplicationName": "Cipher.DynaCardCollector"  ,    "Interval": "24"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "CompressorBase_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY ESP"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY FLOWING"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY GASCOMP"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+
+    {"ApplicationName": "ETL DAILY SUMMARY GASLIFT"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY INJECTION"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY RODPUMP"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "DynaCardAnalysis"     ,            "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ETL EQUIPMENT ESP"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+
+    {"ApplicationName": "Error in : PIAttributeMapExport"     , "Interval": "4"     , "Environment": "Production" , "Country": "US" },
+	
+    {"ApplicationName": "ESP_CurrentValue"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ESP_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ESP_Exception"     ,    "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ESP_HourlySummary"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+
+    {"ApplicationName": "Flowing_CurrentValue"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "Flowing_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "Flowing_Exception"     ,    "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "Flowing_HourlySummary"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+    
+    {"ApplicationName": "Flowing_CurrentValue"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "Flowing_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "Flowing_Exception"     ,    "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "Flowing_HourlySummary"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+	
+	{"ApplicationName": "Gaslift_CurrentValue"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "Gaslift_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "Gaslift_Exception"     ,    "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "Gaslift_HourlySummary"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+
+    {"ApplicationName": "Injection_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+ 
+    {"ApplicationName": "Oxy.Cipher.Alarms"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },	
+	
+    {"ApplicationName": "PIAttributeMapExport"     , "Interval": "2"     , "Environment": "Production" , "Country": "US" },	
+	
+    {"ApplicationName": "ETL PRI ESP"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL PRI FLOWING"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL PRI GASLIFT"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ETL PRI INJECTION"     ,"Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ETL PRI RODPUMP"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ETL PRI WELL"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+	
+    {"ApplicationName": "ETL RODPUMP CYCLE HISTORY"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL INSTALLSENSOR"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL WTV_FIRST_FLUID_DATE"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL WTV_SOURCE"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "WellTestValidation"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+
+    {"ApplicationName": "RodPump_CurrentValue"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "RodPump_DailySummary"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "RodPump_Exception"     ,     "Interval": "24"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "RodPump_HourlySummary"     , "Interval": "1"     , "Environment": "Production" , "Country": "US" },
+
+    {"ApplicationName": "RodpumpCycleHistory"     , "Interval": "24"     , "Environment": "Production" , "Country": "US" },
+
+    {"ApplicationName": "ETL WELLBORE"     ,            "Interval": "12"     , "Environment": "Production" , "Country": "US" },	
+    {"ApplicationName": "ETL WELLPERFORMANCETARGET"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    {"ApplicationName": "ETL BACKFILL"     , "Interval": "12"     , "Environment": "Production" , "Country": "US" },
+    
+	{"ApplicationName": "Cipher.DynaCardCollector"  ,    "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "CompressorBase_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+
+    {"ApplicationName": "ETL DAILY SUMMARY ESP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY FLOWING"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY GASCOMP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY GASCUSP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY GASLIFT"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+
+    {"ApplicationName": "ETL DAILY SUMMARY INJECTION"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL DAILY SUMMARY RODPUMP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "DynaCardAnalysis"     ,            "Interval": "4"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ETL EQUIPMENT ESP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ETL INSTALLSENSOR"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+
+    {"ApplicationName": "Error in : PIAttributeMapExport"     , "Interval": "4"     , "Environment": "Test" , "Country": "US" },
+	
+    {"ApplicationName": "ESP_CurrentValue"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ESP_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ESP_Exception"     ,    "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ESP_HourlySummary"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+
+    {"ApplicationName": "Flowing_CurrentValue"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "Flowing_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "Flowing_Exception"     ,    "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "Flowing_HourlySummary"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+    
+    {"ApplicationName": "Flowing_CurrentValue"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "Flowing_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "Flowing_Exception"     ,    "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "Flowing_HourlySummary"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+	
+	{"ApplicationName": "Gaslift_CurrentValue"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "Gaslift_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "Gaslift_Exception"     ,    "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "Gaslift_HourlySummary"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+
+    {"ApplicationName": "Injection_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+ 
+    {"ApplicationName": "Oxy.Cipher.Alarms"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },	
+	
+    {"ApplicationName": "PIAttributeMapExport"     , "Interval": "2"     , "Environment": "Test" , "Country": "US" },	
+	
+    {"ApplicationName": "ETL PRI ESP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL PRI FLOWING"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL PRI GASLIFT"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ETL PRI INJECTION"     ,"Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ETL PRI RODPUMP"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+	{"ApplicationName": "ETL PRI WELL"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+	
+    {"ApplicationName": "ETL RODPUMP CYCLE HISTORY"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+
+    {"ApplicationName": "RodPump_CurrentValue"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "RodPump_DailySummary"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "RodPump_Exception"     ,     "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "RodPump_HourlySummary"     , "Interval": "1"     , "Environment": "Test" , "Country": "US" },
+
+    {"ApplicationName": "RodpumpCycleHistory"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+
+    {"ApplicationName": "ETL WELLBORE"     ,            "Interval": "24"     , "Environment": "Test" , "Country": "US" },	
+    {"ApplicationName": "ETL WELLPERFORMANCETARGET"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL WTV_FIRST_FLUID_DATE"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" },
+    {"ApplicationName": "ETL WTV_SOURCE"     , "Interval": "24"     , "Environment": "Test" , "Country": "US" }
+    
+]
+	
+	
+	
+	
+	
+	
